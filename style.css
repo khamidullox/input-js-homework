@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./click-sound/pexels-photo-1509428.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html {
+  height: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding-top: 25px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 16px;
+  max-height: max-content;
+  /* height: 200px; */
+}
+
+.form-input {
+  display: flex;
+  gap: 5px;
+}
+input {
+  border: 0.5px solid #111;
+  border-radius: 4px;
+}
+input:focus {
+  outline: none;
+}
+li {
+  max-width: 200px;
+}
+.btn-list-delete {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-all {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
